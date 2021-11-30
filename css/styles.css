@@ -1,3 +1,4 @@
+/* HTML CHALLENGE */
 span {
     color: palevioletred;
 }
@@ -31,5 +32,71 @@ span {
 
 #video {
     margin-top: 2em;
+}
+
+/* CSS CHALLENGE */
+
+#white-box {
+    background-color: white;
+    height: 200px;
+    width: 200px;    
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+#red-target {
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 5px dashed black;
+}
+
+.csstable {
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+}
+
+.csstable td {
+    border: 2px solid black;
+}
+
+tbody>tr:nth-child(1) td:nth-child(odd) {
+    background-color: #D1E5E1;
+}
+
+.maincontainers {
+    width: 300px;
+    border: 2px solid black;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px 0 0 5px;
+}
+
+.maincontainers div{
+    background-color: purple;
+    color: white;
+}
+
+#firstcontainer div:nth-child(1) {
+    margin-bottom: 2px;
+    width: 30%;
+}
+
+#firstcontainer div:nth-child(2) {
+    width: 70%;
+}
+
+#secondcontainer div:nth-child(1) {
+    width: 70%;
+    margin-left: 27%;
+    text-align: right;
+}
+
+#secondcontainer div:nth-child(2) {
+    width: 27%;
+    text-align: right;
 }
 
