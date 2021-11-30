@@ -100,3 +100,76 @@ tbody>tr:nth-child(1) td:nth-child(odd) {
     text-align: right;
 }
 
+
+#boxcontainer div div{
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    /* trying to position each element next to another */
+    margin: 0 0 5px 0; 
+    width: 75px;
+    height: 75px;
+}
+
+.redbox {
+    background-color: red;
+    border-left: 2px solid black;
+}
+
+.redbox:nth-child(4) {
+    border-right: 2px solid black;
+}
+
+.blackbox {
+    background-color: black;
+    border-left: 2px solid red;
+    margin-bottom: 0;
+}
+
+.blackbox:nth-child(4) {
+    border-right: 2px solid red;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    row-gap: 2px;
+}
+
+#orangecontainer, #greencontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.orangebox, .greenbox {
+    text-align: center;
+    color: white;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orangebox {
+    background-color: orange;
+    border-left: 2px solid green;
+}
+
+.orangebox:nth-child(4) {
+    border-right: 2px solid green;
+}
+
+.greenbox {
+    background-color: green;
+    border-left: 2px solid orange;
+}
+
+.greenbox:nth-child(4) {
+    border-right: 2px solid orange;
+}
+
+
