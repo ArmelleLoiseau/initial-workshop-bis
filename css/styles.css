@@ -1,0 +1,35 @@
+span {
+    color: palevioletred;
+}
+
+#cards {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.black {
+    border: 1px solid black;
+    padding: 0.3em 1.5em;
+}
+
+.red {
+    border: 1px solid red;
+    color : red;
+}
+
+#grammar {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#grammar th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.7em 1em;
+}
+
+#video {
+    margin-top: 2em;
+}
+
